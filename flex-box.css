@@ -1,0 +1,93 @@
+#div-Container{
+    border:solid black 3px;
+    height:100%;
+    display:flex;
+    /* display: block; */
+    flex-direction: column;
+    }
+
+#top{
+border: solid 2px;
+flex-grow: 1;
+background-color: blueviolet;
+display:flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+#middleContainer{
+    border: solid 3px;
+    flex-direction: row;
+    height: 100%;
+    flex-grow: 2;
+    display: flex;
+}
+#middle-left{
+    border: solid 3px;
+    background-color: rgb(171, 173, 16);
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+      align-items: center;  
+}
+#middle{
+    border: solid 3px;
+    background-color: rgb(39, 151, 142);
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#middle-right{
+    border: solid 3px;
+    background-color: rgb(173, 16, 160);
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+}
+#bottom{
+    border: solid black 3px;
+    background-color: darksalmon;    
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* 
+#holy-grail-container {
+    border:solid 4px black;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#top-row{
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    background-color:orangered;
+}
+#middle-row{
+    display: flex;
+    flex-direction: row;
+    border: solid 1px black;
+    flex-grow: 2;
+    background: darkslateblue;
+}
+#bottom-row {
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    background: deeppink; */
+/* } */
